@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("image/photo-1528834352857-6058fe09174d.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+   background-size: cover;
+   padding: 50px;
+}
+form{
+   
+    margin: 50px auto;
+    background: #c3b8b8;
+    padding: 30px;
+    width: 400px;
+    
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
+input{
+    margin: 10px 40px ;
+    padding: 3px;
+    width: 75%;
+outline: none;
+
+}
+textarea{
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: dotted;
+    padding:  3px ;
+    margin: 5px 40px ;
+    outline: none;
+}
+p{
+    background-color: rgb(238, 18, 18);
+    color: #fff;
+}

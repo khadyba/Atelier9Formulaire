@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shorcut icon" href="image/logo.jpeg">
+    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+   <form > 
+    <h1>formulaire d'inscription</h1>
+    <input type="text"  id="Nom" placeholder="votre nom complet" >
+    <p class="message-erreur"></p>
+<input type="email"  id="email" placeholder="votre adress mail" required>
+
+<textarea id="message " placeholder="ajouer un commentaire"  cols="35" rows="5" ></textarea><br>
+<p class="message-erreur"></p>
+<button type="button"  onclick="invalid()" > Envoyez</button>
+   </form>
+
+        <script src="script.js"></script>
+    
+</body>
+</html>
